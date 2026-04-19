@@ -1,0 +1,9 @@
+{
+  "id": "vault-recall",
+  "name": "Vault Recall",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "Review notes tagged with #review using spaced repetition.",
+  "author": "Matheus Adorno",
+  "main": "main.js"
+}

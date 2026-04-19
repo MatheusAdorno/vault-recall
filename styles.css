@@ -1,0 +1,115 @@
+/* Vault Recall Plugin Styles */
+
+.vault-recall-container {
+    padding: 16px;
+    font-family: var(--font-interface);
+    color: var(--text-normal);
+    background-color: var(--background-primary);
+}
+
+.vault-recall-shell {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.vault-recall-sidebar {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 8px;
+    background-color: var(--background-secondary);
+}
+
+.vault-recall-main {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 8px;
+    background-color: var(--background-secondary);
+}
+
+.vault-recall-overview {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.vault-recall-overview-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vault-recall-overview-label {
+    font-weight: 500;
+}
+
+.vault-recall-overview-value {
+    font-weight: bold;
+    color: var(--text-accent);
+}
+
+.vault-recall-row {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+
+.vault-recall-btn {
+    padding: 8px 16px;
+    background-color: var(--interactive-accent);
+    color: var(--text-on-accent);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.vault-recall-btn:hover {
+    background-color: var(--interactive-accent-hover);
+}
+
+.vault-recall-note-card {
+    margin-top: 16px;
+}
+
+.vault-recall-note-card h3 {
+    margin: 0 0 8px 0;
+    color: var(--text-normal);
+}
+
+.vault-recall-empty {
+    text-align: center;
+    color: var(--text-muted);
+    font-style: italic;
+}
+
+.vault-recall-muted {
+    color: var(--text-muted);
+    font-size: 14px;
+}
+
+.vault-recall-section-title {
+    margin: 0 0 16px 0;
+    color: var(--text-normal);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .vault-recall-container {
+        padding: 8px;
+    }
+    
+    .vault-recall-shell {
+        gap: 8px;
+    }
+    
+    .vault-recall-sidebar,
+    .vault-recall-main {
+        padding: 8px;
+    }
+}
