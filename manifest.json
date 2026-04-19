@@ -5,5 +5,7 @@
   "minAppVersion": "1.5.0",
   "description": "Review notes tagged with #review using spaced repetition.",
   "author": "Matheus Adorno",
+  "authorUrl": "https://github.com/MatheusAdorno/vault-recall",
+  "isDesktopOnly": false,
   "main": "main.js"
 }
